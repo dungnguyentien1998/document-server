@@ -1,0 +1,32 @@
+{
+  "name": "document-server",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "docxtemplater": "^3.37.11",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "jstransformer": "^1.0.0",
+    "mongoose": "^7.2.0",
+    "morgan": "~1.9.1",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.22",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "pizzip": "^3.1.4",
+    "pug": "^3.0.2",
+    "sequelize": "^6.6.5",
+    "sequelize-auto": "^0.8.4",
+    "transformers": "^1.8.3"
+  }
+}
